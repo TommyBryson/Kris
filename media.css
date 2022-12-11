@@ -9,7 +9,6 @@
 		display: none;
 	}
 	.nav-button {
-		
 		display: block;
 	}
 
@@ -50,8 +49,6 @@
 	}
 
     .nav.open .nav-button {
-        position: fixed;
-		
     }
 
 	.header-nav {
@@ -78,7 +75,7 @@
 	}
 	
 	.qq {
-		display: block;
+		display: none;
 	}
 
 	}
@@ -131,4 +128,3 @@
 		column-gap: 50px;
 		margin-bottom: 20px;
 	}
-
