@@ -1,4 +1,7 @@
 @media (max-width: 1230px) {
+	.h1-beats {
+		margin-left: -600px;
+	}
 	.nav-list {
 		display: none;
 	}
@@ -6,6 +9,7 @@
 		display: none;
 	}
 	.nav-button {
+		
 		display: block;
 	}
 
@@ -29,9 +33,11 @@
 
 	.nav-link {
 		color: #828282;
+		
 	}
 
 	.nav-link.active {
+		
 		color: #000;
 	}
 
@@ -40,10 +46,12 @@
 		z-index: 9;
 		top: 46px;
 		right: 30px;
+		
 	}
 
     .nav.open .nav-button {
         position: fixed;
+		
     }
 
 	.header-nav {
@@ -65,9 +73,12 @@
 }
 
 @media (max-width: 700px) {
+	.h1-beats {
+		margin-left: -600px;
+	}
 	
 	.qq {
-	
+		display: block;
 	}
 
 	}
