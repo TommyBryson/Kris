@@ -6,7 +6,7 @@
 		display: none;
 	}
 	.qq {
-		display: none;
+		display: block;
 	}
 	.nav-button {
 		display: block;
@@ -36,7 +36,6 @@
 	}
 
 	.nav-link.active {
-		
 		color: #000;
 	}
 
@@ -49,6 +48,7 @@
 	}
 
     .nav.open .nav-button {
+		display: block;
     }
 
 	.header-nav {
@@ -128,3 +128,4 @@
 		column-gap: 50px;
 		margin-bottom: 20px;
 	}
+
