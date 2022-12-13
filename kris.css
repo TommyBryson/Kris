@@ -22,18 +22,17 @@ body {
 
 .btn {
     display: inline-block;
-    padding: 7px 22px;
-    background-color: #070707;
+    padding: 10px 22px;
+    background: linear-gradient(to left, #434343 , #232526, #828282);
     border-radius: 30px;
-
+    background-size: 200%;
+    transition: 0.6s;
     font-size: 18px;
     color: #fff;
-
-    transition: background-color 0.2s ease-in, top 0.2s ease-in;
 }
 
 .btn:hover, .btn:focus {
-    background-color: #323232;
+    background-position: right;
 }
 
 .btn:active {
@@ -242,17 +241,18 @@ body {
 }
 
 .buy-btn {
-    margin-left: 100px;
+    margin-left: 65px;
     display: inline-block;
     margin-top: 30px;
-    padding: 10px 27px;
-    background-color: green;
+    padding: 20px 55px;
+    background: linear-gradient( to left, #12D8FA, #f79d00, #64f38c);
+    transition: 0.6s;
+    background-size: 200%;
     border-radius: 100px;
-
     font-size: 18px;
-    color: #fff;
-
-    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+.buy-btn:hover {
+    background-position: right;
 }
 .buy-btn a {
     color: #fff;
@@ -260,10 +260,10 @@ body {
     font-size: 20px;
 }
 
-
 .h1-beats {
+    margin-left: 530px;
     margin-top: 100px;
     position: absolute;
-    left: 900px;
-    font-size: 44px;
+    text-align: center;
+    font-size: 40px;
 }
