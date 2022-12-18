@@ -285,7 +285,7 @@ body {
 .square {
     border-radius: 14px;
     position: absolute;
-    left: 100px;
+    left: 560px;
     top: 1416px;
     height: 40px;
     width: 36px;
@@ -297,7 +297,7 @@ body {
     border-radius: 14px;
     z-index: 3;
     top: 1416px;
-    left: 1550px;
+    left: 950px;
     height: 40px;
     width: 36px;
     background-color: red;
