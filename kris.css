@@ -289,7 +289,7 @@ body {
     top: 1416px;
     height: 40px;
     width: 36px;
-    background-color: #f1f3f7;
+    background-color: red;
     color: #f1f3f7;
 }
 .square2 {
@@ -300,7 +300,7 @@ body {
     left: 900px;
     height: 40px;
     width: 36px;
-    background-color: #f1f3f7;
+    background-color: red;
     color: #f1f3f7;
 }
 .square3 {
@@ -311,6 +311,6 @@ body {
     top: 1416px;
     height: 40px;
     width: 36px;
-    background-color: #f1f3f7;
+    background-color: red;
     color: #f1f3f7;
 }
