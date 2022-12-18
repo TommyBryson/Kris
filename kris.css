@@ -168,7 +168,6 @@ body {
 }
 .service-card-img:hover {
     transition: 0.6s;
-    margin-top: 180px;
     border-radius: 120px;
 }
 
@@ -281,4 +280,37 @@ body {
     position: absolute;
     text-align: center;
     font-size: 40px;
+}
+
+.square {
+    border-radius: 14px;
+    position: absolute;
+    left: 645px;
+    top: 1416px;
+    height: 40px;
+    width: 36px;
+    background-color: #f1f3f7;
+    color: #f1f3f7;
+}
+.square2 {
+    position: absolute;
+    border-radius: 14px;
+    z-index: 3;
+    top: 1416px;
+    left: 1068px;
+    height: 40px;
+    width: 36px;
+    background-color: #f1f3f7;
+    color: #f1f3f7;
+}
+.square3 {
+    border-radius: 14px;
+    z-index: 3;
+    position: absolute;
+    left: 1495px;
+    top: 1416px;
+    height: 40px;
+    width: 36px;
+    background-color: #f1f3f7;
+    color: #f1f3f7;
 }
